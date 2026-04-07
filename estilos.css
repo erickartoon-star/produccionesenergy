@@ -10,7 +10,7 @@ body {
       rgba(0,0,0,0.6),
       rgba(0,0,0,0.6)
     ),
-    url("../fondo-fiesta.jpg");
+    url("/fondo-fiesta.jpg");
 
   background-size: cover;
   background-position: center;
