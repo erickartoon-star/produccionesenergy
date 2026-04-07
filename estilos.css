@@ -6,9 +6,20 @@ body {
 }
 
 .hero {
-  background: linear-gradient(#000, #222);
+  background-image: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("../images/fondo-fiesta.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   text-align: center;
-  padding: 100px 20px;
+  padding: 120px 20px;
+}
+
 }
 
 .btn {
